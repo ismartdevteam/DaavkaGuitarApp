@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+       android:layout_margin="10dp"
+        android:background="@drawable/pop_back" >
+
+        <Button
+            android:id="@+id/pop_dismiss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/transparent"
+            android:padding="5dp"
+            android:text="X"
+            android:textColor="@color/chord_col"
+            android:textStyle="bold" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/mPager"
+            android:layout_width="match_parent"
+            
+            android:layout_height="240dp"
+            android:layout_below="@+id/pop_dismiss" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mPager" >
+
+            <ImageView
+                android:id="@+id/backward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:padding="10dp"
+                android:src="@drawable/backward" />
+
+            <ImageView
+                android:id="@+id/play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="10dp"
+                android:src="@drawable/play" />
+
+            <ImageView
+                android:id="@+id/forward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="10dp"
+                android:src="@drawable/forward" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

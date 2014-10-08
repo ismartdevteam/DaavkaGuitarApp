@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Daavka Guitar App</string>
+    <string name="search">Хайлт</string>
+    <string name="mglsong">Монгол дуу</string>
+    <string name="tsohilt">Цохилт</string>
+    <string name="chords">Аккорд</string>
+    <string name="tuner">Хөглөгч</string>
+    <string name="other">Бусад</string>
+    <string name="book">Ном</string>
+    <string name="sort">Шүүж хайх:</string>
+    <string name="viewYoutube">Дууг сонсох</string>
+    <string name="skip">Алгасах</string>
+    <string name="hideYoutube">Youtube хаах</string>
+    <string name="charac">Дуучин </string>
+    <string name="flow">Урсгал</string>
+    <string name="guitarmn">http://guitar.mn/</string>
+    <string name="site">Цахим хуудас</string>
+    <string name="lesson">Онлайн хичээл</string>
+    <string name="playlistID">UCsoO58rmrY2ebZswGmYHgoA</string>
+    <string name="about">Танилцуулга</string>
+    <string name="hemjeejhemnel">Хэмжээ ба Хэмнэл</string>
+    <string name="tsohiltone">Цохилт 2/4</string>
+    <string name="tsohilttwo">Цохилт 3/4</string>
+    <string name="tsohiltthree">Цохилт 4/4</string>
+    <string name="tsohiltfour">Цохилт 6/8</string>
+    <string name="tsohiltfive">Цохилт 8/8</string>
+    <string name="tsohiltsix">Бусад</string>
+    <string name="tsohiltharah">Цохилт харах</string>
+    <string name="scrollspeed">Гүйлгэх хурд</string>
+
+    <string-array name="chord">
+        <item>C</item>
+        <item>C#</item>
+        <item>Db</item>
+        <item>D</item>
+        <item>D#</item>
+        <item>Eb</item>
+        <item>E</item>
+        <item>F</item>
+        <item>F#</item>
+        <item>Gb</item>
+        <item>G</item>
+        <item>G#</item>
+        <item>Ab</item>
+        <item>A</item>
+        <item>A#</item>
+        <item>Bb</item>
+        <item>B</item>
+    </string-array>
+
+    <color name="menu_tv_col">#4a2624</color>
+    <color name="splash_back">#580000</color>
+    <color name="chord_col">#41211f</color>
+    <color name="sort_back">#422120</color>
+    <color name="pop_back">#ba8563</color>
+    <color name="dethead">#2c2424</color>
+    <color name="pop_frame">#4F000000</color>
+    <!-- tuner -->
+
+    <string name="error_buffer">Дуу хураахад алдаа гарлаа</string>
+    <string name="error_init">Дуу хураахад алдаа гарлаа</string>
+    <string name="filter_on">Audio filter on</string>
+    <string name="filter_off">Audio filter off</string>
+    <string name="zoom_on">Spectrum zoom on</string>
+    <string name="zoom_off">Spectrum zoom off</string>
+    <string name="lock_on">Display lock on</string>
+    <string name="lock_off">Display lock off</string>
+    <string name="screen_on">Keep screen on</string>
+    <string name="screen_off">Don\'t keep screen on</string>
+    <string name="strobe_on">Strobe on</string>
+    <string name="strobe_off">Strobe off</string>
+    <string name="downsample_on">Downsampling on</string>
+    <string name="downsample_off">Downsampling off</string>
+    <string name="multiple_on">Multiple notes on</string>
+    <string name="multiple_off">Multiple notes off</string>
+    <string name="copied_clip">Data copied to clipboard</string>
+    <string name="sample_rate">Sample rate: %1.0f samples/sec</string>
+    <string name="filter">filter</string>
+    <string name="zoom">zoom</string>
+    <string name="lock">lock</string>
+    <string name="display">screen</string>
+    <string name="strobe">strobe</string>
+    <string name="downsample">downsample</string>
+    <string name="multiple">multiple</string>
+    <string name="def_custom">[-1073807360,-1090518785]</string>
+    <string name="pref_input_category">Input</string>
+    <string name="pref_input">Input source</string>
+    <string name="pref_input_summ">%s"</string>
+    <string name="pref_filter">Audio filter</string>
+    <string name="pref_filter_summ">Filter input audio</string>
+    <string name="pref_downsample">Downsample</string>
+    <string name="pref_downsample_summ">Downsample input before analysis</string>
+    <string name="pref_display">Display</string>
+    <string name="pref_screen">Screen</string>
+    <string name="pref_screen_summ">Keep screen on</string>
+    <string name="pref_zoom">Zoom spectrum</string>
+    <string name="pref_zoom_summ">Zoom in to current note on spectrum display</string>
+    <string name="pref_multiple">Multiple notes</string>
+    <string name="pref_multiple_summ">Show multiple notes on display</string>
+    <string name="pref_strobe">Strobe</string>
+    <string name="pref_strobe_screen">Strobe settings</string>
+    <string name="pref_strobe_summ">Show the strobe display</string>
+    <string name="pref_colour">Strobe colours</string>
+    <string name="pref_colour_summ">Change the strobe colours</string>
+    <string name="pref_custom">Custom</string>
+    <string name="pref_custom_summ">Custom colours</string>
+    <string name="pref_ref">Reference</string>
+    <string name="pref_ref_summ">%dHz</string>
+    <string name="pref_about">About</string>
+    <string name="pref_about_summ">Tuner version %s</string>
+
+</resources>
